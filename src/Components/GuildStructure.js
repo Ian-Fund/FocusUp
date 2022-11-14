@@ -9,24 +9,65 @@ import {
   schedule,
   trials,
   performance,
-  introContent,
-  scheduleContent,
+  introContent1,
+  introContent2,
+  scheduleContent1,
+  scheduleContent2,
+  scheduleContent3,
+  scheduleContent4,
+  scheduleContent5,
+  scheduleContent6,
+  scheduleContent7,
+  scheduleContent8,
+  scheduleContent9,
+  expectationContent1,
+  expectationContent2,
+  expectationContent3,
+  progressionContent1,
+  progressionContent2,
+  progressionContent3,
+  performanceContent1,
+  trialsContent1,
+  lootContent1,
+  lootContent2,
+  changelogContent,
 } from "../media/textConstants";
 
 export default function GuildStructure() {
   return (
     <div>
       <h2>{intro}</h2>
-      <p>{introContent}</p>
+      <p>{introContent1}</p>
+      <p>{introContent2}</p>
       <h2>{schedule}</h2>
-      <p>{scheduleContent}</p>
+      <p>{scheduleContent1}</p>
+      <p>{scheduleContent2}</p>
+      <p>{scheduleContent3}</p>
+      <p>{scheduleContent4}</p>
+      <p>{scheduleContent5}</p>
+      <p>{scheduleContent6}</p>
+      <p>{scheduleContent7}</p>
+      <p>{scheduleContent8}</p>
+      <p>{scheduleContent9}</p>
       <h2>{expectations}</h2>
+      <p>{expectationContent1}</p>
+      <p>{expectationContent2}</p>
+      <p>{expectationContent3}</p>
       <h2>{progression}</h2>
+      <p>{progressionContent1}</p>
+      <p>{progressionContent2}</p>
+      <p>{progressionContent3}</p>
       <h2>{performance}</h2>
+      <p>{performanceContent1}</p>
       <h2>{trials}</h2>
+      <p>{trialsContent1}</p>
       <h2>{attendance}</h2>
+      <p>{trialsContent1}</p>
       <h2>{loot}</h2>
+      <p>{lootContent1}</p>
+      <p>{lootContent2}</p>
       <h2>{changelog}</h2>
+      <p>{changelogContent}</p>
     </div>
   );
 }
