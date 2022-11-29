@@ -70,6 +70,5 @@ export const content = {
       ]
     }
   ]
-
 }
 // module.exports = textConstants;
